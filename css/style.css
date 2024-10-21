@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+  --FC: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 1.5rem;
+}
+section p{
+  font-size: 1rem;
+
+}
+.link{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    flex-direction: column; 
+}
+
+body{
+  color: var(--FC);
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  font-size: 1rem;
+}
+section,
+main,
+.socialmedia,
+.avatar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.section-header{
+  background-color:rgb(28, 25, 25);
+  text-align: center;
+  width: 420px;
+  border-radius: 20px 20px 0px 0px;
+  margin-top: 30px ; 
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+
+}
+
+.avatar-container{
+  margin: 20px 0 5px 0vw;
+
+}
+
+.avatar{
+  
+  display: flex;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  /* height:  max(20%, 100px);
+  width: max(20%, 100px); */
+  border: solid rgb(154, 151, 151) 2px;
+  border-radius: 100%;
+}
+
+.socialmedia{
+  background-color:rgb(28, 25, 25);
+  margin-bottom: 30px ;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+.socialmedia button{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin: 15px 10px 0px 10px;
+  width: 400px;
+  height:75px;
+  border-radius: 28px;
+  border: solid 3px;
+}
+
+/* activity */
+.socialmedia button:hover{
+  background-color: rgb(95, 95, 95);
+  color: whitesmoke;
+  border: black;
+  cursor: pointer;
+}
+/* s */
