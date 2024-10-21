@@ -61,7 +61,6 @@ main{
 }
 
 .avatar{
-  
   display: flex;
   height: 80px;
   width: 80px;
@@ -79,6 +78,7 @@ main{
   border-radius: 0px 0px 20px 20px;
 }
 .socialmedia button{
+  color: black;
   font-weight: 600;
   font-size: 1.25rem;
   margin: 15px 10px 0px 10px;
